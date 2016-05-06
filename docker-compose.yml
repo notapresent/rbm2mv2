@@ -1,0 +1,9 @@
+db:
+  image: mariadb:10.0.23
+  ports:
+   - "3306:3306"
+  environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: rbm2m
+      MYSQL_USER: rbm2m
+      MYSQL_PASSWORD: rbm2m
